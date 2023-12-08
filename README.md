@@ -1,6 +1,16 @@
 # OMLT_CAMD
 
-This repository is the official implementation of the paper "Augmenting optimization-based molecular design with graph neural networks".
+This repository is the official implementation of the paper ["Augmenting optimization-based molecular design with graph neural networks"](https://arxiv.org/abs/2312.03613).
+
+The BibTex reference is:
+
+     @article{zhang2023,
+          title={Augmenting optimization-based molecular design with graph neural networks},
+          author= {Shiqiang Zhang and Juan S. Campos and Christian Feldmann and Frederik Sandfort and Miriam Mathea and Ruth Misener},
+          journal={arXiv preprint arXiv:2312.03613},
+          year = {2023},
+     }
+
 
 ## Requirements
 
