@@ -1,14 +1,20 @@
 # OMLT_CAMD
 
-This repository is the official implementation of the paper ["Augmenting optimization-based molecular design with graph neural networks"](https://arxiv.org/abs/2312.03613).
+This repository is the official implementation of the paper ["Augmenting optimization-based molecular design with graph neural networks"](https://doi.org/10.1016/j.compchemeng.2024.108684). This paper was publised in Computers \& Chemical Engineering. Please cite as:
+
+- Shiqiang Zhang, Juan S. Campos, Christian Feldmann, Frederik Sandfort, Miriam Mathea, Ruth Misener. "Augmenting optimization-based molecular design with graph neural networks." Computers \& Chemical Engineering 186 (2024): 108684.
 
 The BibTex reference is:
 
-     @article{zhang2023,
-          title={Augmenting optimization-based molecular design with graph neural networks},
+     @article{zhang2024,
+          title = {Augmenting optimization-based molecular design with graph neural networks},
           author= {Shiqiang Zhang and Juan S. Campos and Christian Feldmann and Frederik Sandfort and Miriam Mathea and Ruth Misener},
-          journal={arXiv preprint arXiv:2312.03613},
-          year = {2023},
+          journal = {Computers \& Chemical Engineering},
+          volume = {186},
+          pages = {108684},
+          year = {2024},
+          issn = {0098-1354},
+          doi = {https://doi.org/10.1016/j.compchemeng.2024.108684},
      }
 
 
@@ -38,9 +44,9 @@ python data_preparation_banana.py
 To train a GNN on the preprocessed dataset, run this command (using banana odor as an example):
 
 ```
-python model_training_banana.py
+python model_training_banana.py $seed_gnn
 ```
-
+where seed_gnn is the random seed for training GNN.
 
 ## Optimization
 
@@ -62,4 +68,4 @@ where odor is the target odor (banana or garlic), N is the number of fragments, 
 
 
 # Contributors
-Shiqiang Zhang. Funded by an Imperial College Hans Rausing PhD Scholarship.
+[*Shiqiang Zhang*](https://github.com/zshiqiang). Funded by an Imperial College Hans Rausing PhD Scholarship.

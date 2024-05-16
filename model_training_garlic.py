@@ -28,7 +28,7 @@ print(f"Number of node features: {dataset.num_node_features}")
 
 import random
 
-seed_gnn = 0
+seed_gnn = int(sys.argv[1])
 
 torch.manual_seed(seed_gnn)
 dataset_shuffle = dataset.shuffle()
